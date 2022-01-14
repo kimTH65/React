@@ -1,0 +1,7 @@
+{
+    "host":"kth-db.cd1kuc1cybf5.ap-northeast-2.rds.amazonaws.com",
+    "user":"kth",
+    "password":"xogns1234",
+    "port":"3306",
+    "database":"kth_db"
+}
