@@ -197,7 +197,7 @@ class App extends React.Component {
 export default App;
 ```
 
-<h5>　crud관련 컴포넌트</h5>
+<h5>　CRUD관련 컴포넌트</h5>
 
 <div align="center"><h6>retest/client/src/component</h6></div>
 
