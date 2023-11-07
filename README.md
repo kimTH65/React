@@ -51,16 +51,32 @@ app.get('/', (req, res) => {
     res.send('complate');
 })
 
-app.get('/test', (req, res) => {
-    connection.query(
-        "select * from TEST",
-        (err, rows, fields) => {
-            res.send(rows);
-        }
-    );
-});
-
 ...
 ```
+
+<br>
+<div align="center"><h6>retest/package.json</h6></div>
+
+```
+//node서버와 react서버를 동시에 실행 시켜줄 스크립트 생성
+
+{
+    "name": "user",
+    "version": "1.0.0",
+    "scripts": {
+        "client": "cd client && yarn start",
+        "server": "nodemon server.js",
+        "dev": "concurrently \"yarn server\" \"yarn client\""
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "concurrently": "^6.2.0",
+        "express": "^4.17.1",
+        "multer": "^1.4.2",
+        "mysql": "^2.18.1"
+    }
+}
+```
+
 
 #
