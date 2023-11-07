@@ -77,5 +77,16 @@ app.get('/', (req, res) => {
 }
 ```
 
-
 #
+
+<h3>2. React설정</h3>
+
+<h5>CORS(Cross Origin Resource Sharing)정책 위반 문제해결을 위해 proxy설정</h5>
+<h6>　retest/client/package.json</h6>
+
+```
+{
+  ...
+  "proxy": "http://localhost:5000/"
+}
+```
