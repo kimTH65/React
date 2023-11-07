@@ -60,34 +60,7 @@ app.get('/test', (req, res) => {
     );
 });
 
-app.use('/image', express.static('./upload'));
-app.post('/api/User', upload.single('image'),(req,res) =>{
-    let sql = 'insert into TEST values(null, ?, ?, ?)';
-    let image = '/image/' + req.file.filename;
-    let title = req.body.title;
-    let contents = req.body.contents;
-    let params = [image, title, contents];
-    connection.query(sql, params, 
-        (err, rows, fields) => {
-            res.send(rows);
-        }
-    );
-})
-app.delete('/api/userDel/:id',(req,res) => {
-    let sql = "delete from TEST where id = ?";
-    let params = [req.params.id];
-    connection.query(sql, params, 
-        (err, rows, fields) => {
-            res.send(rows);
-        }
-    );
-
-
-});
-
-app.listen(port, () => {
-    console.log(`Server On ${port}`);
-})
+...
 ```
 
 #
