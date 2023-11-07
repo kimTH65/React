@@ -95,8 +95,8 @@ app.get('/', (req, res) => {
     
  - react배포시 실제 서버에 배포되는 폴더가 public 폴더
  - 가상 DOM을 위한 index.html파일이 존재(추가적인 url을 안붙이면 요청됨)
-
-<br>　index.js에서 화면이 시작</h5>
+</h5>
+<h5>　index.js에서 화면이 시작</h5>
 <div align="center"><h6>retest/client/src/index.js</h6></div>
 
 ```
