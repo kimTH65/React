@@ -1,4 +1,4 @@
-# React,Node.js - Practice
+# React - Practice
 
 <h3>1. 데이터 베이스 정보 설정(amazon rds 사용)</h3>
 <div align="center"><h6>retest/database.json</h6></div>
