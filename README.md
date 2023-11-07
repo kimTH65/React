@@ -2,11 +2,10 @@
 
 <h3>1. Node.js(express)서버 설정</h3>
 
-<div align="center"><h6>retest/database.json</h6></div>
+<h5>데이터 베이스 정보(amazon rds 사용)</h5>
+<h6>　retest/database.json</h6>
 
 ```
-//데이터 베이스 정보(amazon rds 사용)
-
 {
     "host":"kth-db.cd1kuc1cybf5.ap-northeast-2.rds.amazonaws.com",
     "user":"kth",
@@ -17,11 +16,10 @@
 ```
 
 <br>
-<div align="center"><h6>retest/server.js</h6></div>
+<h5>node.js서버 설정</h5>
+<h6>　retest/server.js</h6>
 
 ```
-//node.js서버 설정
-
 const fs = require('fs');
 const express = require('express');
 const app = express();
@@ -55,11 +53,12 @@ app.get('/', (req, res) => {
 ```
 
 <br>
-<div align="center"><h6>retest/package.json</h6></div>
+
+<br>
+<h5>node서버와 react서버를 동시에 실행 시켜줄 스크립트 생성</h5>
+<h6>　retest/package.json</h6>
 
 ```
-//node서버와 react서버를 동시에 실행 시켜줄 스크립트 생성
-
 {
     "name": "user",
     "version": "1.0.0",
