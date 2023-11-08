@@ -1,7 +1,13 @@
 # React - Practice
 
 <h3>1. 데이터 베이스 정보 설정(amazon rds 사용)</h3>
-<div align="center"><h6>retest/database.json</h6></div>
+<div align="center">
+    <h6>
+        <a href="retest/database.json">
+            retest/database.json
+        </a>
+    </h6>
+</div>
 
 ```
 {
@@ -16,7 +22,13 @@
 #
 
 <h3>2. node.js서버 설정</h3>
-<div align="center"><h6>retest/server.js</h6></div>
+<div align="center">
+    <h6>
+        <a href="retest/server.js">
+            retest/server.js
+        </a>
+    </h6>
+</div>
 
 ```
 const fs = require('fs');
@@ -54,7 +66,13 @@ app.get('/', (req, res) => {
 #
 
 <h3>3. node서버와 react서버를 동시에 실행 시켜줄 스크립트 생성</h3>
-<div align="center"><h5>retest/package.json</h5></div>
+<div align="center">
+    <h5>
+        <a href="retest/package.json">
+            retest/package.json
+        </a>
+    </h5>
+</div>
 
 ```
 {
@@ -80,7 +98,13 @@ app.get('/', (req, res) => {
 <h3>4. React설정</h3>
 
 <h5>　CORS(Cross Origin Resource Sharing)정책 위반 문제해결을 위해 proxy설정</h5>
-<div align="center"><h6>retest/client/package.json</h6></div>
+<div align="center">
+    <h6>
+        <a href="retest/client/package.json">
+            retest/client/package.json
+        </a>
+    </h6>
+</div>
 
 ```
 {
@@ -100,7 +124,13 @@ app.get('/', (req, res) => {
  - 가상 DOM을 위한 index.html파일이 존재(추가적인 url을 안붙이면 요청됨)
 <br>
 index.js에서 화면이 시작</h5>
-<div align="center"><h6>retest/client/src/index.js</h6></div>
+<div align="center">
+    <h6>
+        <a href="retest/client/src/index.js">
+            retest/client/src/index.js
+        </a>
+    </h6>
+</div>
 
 ```
 import React from 'react';
@@ -121,7 +151,13 @@ reportWebVitals();
 
 <h5>　App.js가 초기 컴포넌트</h5>
 
-<div align="center"><h6>retest/client/src/App.js</h6></div>
+<div align="center">
+    <h6>
+        <a href="retest/client/src/App.js">
+            retest/client/src/App.js
+        </a>
+    </h6>
+</div>
 
 ```
 
@@ -202,7 +238,13 @@ export default App;
 
 <h5>　CRUD관련 컴포넌트</h5>
 
-<div align="center"><h6>retest/client/src/component</h6></div>
+<div align="center">
+    <h6>
+        <a href="retest/client/src/component">
+            retest/client/src/component
+        </a>
+    </h6>
+</div>
 
 ```
 import React from 'react';
