@@ -60,7 +60,10 @@ app.get('/', (req, res) => {
     res.send('complate');
 })
 
-...
+  .
+  .
+  .
+
 ```
 
 #
@@ -107,8 +110,10 @@ app.get('/', (req, res) => {
 </div>
 
 ```
-{
-  ...
+  .
+  .
+  .
+
   "proxy": "http://localhost:5000/"
 }
 ```
@@ -160,18 +165,9 @@ reportWebVitals();
 </div>
 
 ```
-
-import './App.css';
-import User from './component/User';
-import UserAdd from './component/UserAdd';
-import Table from '@material-ui/core/Table';
-import TableHead  from '@material-ui/core/TableHead';
-import TableBody  from '@material-ui/core/TableBody';
-import TableRow  from '@material-ui/core/TableRow';
-import TableCell  from '@material-ui/core/TableCell';
-import React from 'react';
-
-
+  .
+  .
+  .
 
 class App extends React.Component {
   
@@ -247,10 +243,10 @@ export default App;
 </div>
 
 ```
-import React from 'react';
-import TableRow from '@material-ui/core/TableRow';
-import TableCell from '@material-ui/core/TableCell';
-import UserDelete from './UserDelete';
+  .
+  .
+  .
+
 class User extends React.Component{
    
     render() {
