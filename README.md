@@ -138,11 +138,9 @@ index.js에서 화면이 시작</h5>
 </div>
 
 ```
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+  .
+  .
+  .
 
 ReactDOM.render(
   <React.StrictMode>
