@@ -235,7 +235,7 @@ export default App;
 <div align="center">
     <h6>
         <a href="retest/client/src/component">
-            React - component
+            React - components
         </a>
     </h6>
 </div>
