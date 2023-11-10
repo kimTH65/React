@@ -4,7 +4,7 @@
 <div align="center">
     <h6>
         <a href="retest/database.json">
-            retest/database.json
+            database.json
         </a>
     </h6>
 </div>
@@ -25,7 +25,7 @@
 <div align="center">
     <h6>
         <a href="retest/server.js">
-            retest/server.js
+            server.js
         </a>
     </h6>
 </div>
@@ -72,7 +72,7 @@ app.get('/', (req, res) => {
 <div align="center">
     <h5>
         <a href="retest/package.json">
-            retest/package.json
+            package.json
         </a>
     </h5>
 </div>
@@ -104,7 +104,7 @@ app.get('/', (req, res) => {
 <div align="center">
     <h6>
         <a href="retest/client/package.json">
-            retest/client/package.json
+            client/package.json
         </a>
     </h6>
 </div>
@@ -132,7 +132,7 @@ index.js에서 화면이 시작</h5>
 <div align="center">
     <h6>
         <a href="retest/client/src/index.js">
-            retest/client/src/index.js
+            client/src/index.js
         </a>
     </h6>
 </div>
@@ -157,7 +157,7 @@ reportWebVitals();
 <div align="center">
     <h6>
         <a href="retest/client/src/App.js">
-            retest/client/src/App.js
+            client/src/App.js
         </a>
     </h6>
 </div>
@@ -235,7 +235,7 @@ export default App;
 <div align="center">
     <h6>
         <a href="retest/client/src/component">
-            retest/client/src/component
+            client/src/component
         </a>
     </h6>
 </div>
