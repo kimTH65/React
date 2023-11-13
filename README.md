@@ -1,5 +1,14 @@
 # React - Practice
  
+<div align="right">
+  <h5>
+    Language : 
+    <a href="JP.md">日本語</a> 
+      ,
+    <a href="US.md">English</a> 
+  </h5>
+</div>
+ 
 <h3>1. 데이터 베이스 정보 설정(amazon rds 사용)</h3>
 <div align="center">
     <h6>
